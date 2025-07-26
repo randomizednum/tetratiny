@@ -1,1 +1,10 @@
 A game of falling tetrominoes written entirely in pure x86 assembly, for pure Linux (libc etc. not needed).
+
+To build, just run:
+
+	nasm -f bin wrapper.asm -o a.out
+	chmod +x a.out
+
+shapes.asm is auto-generated using gen_shapes.lua; if you need to regenerate it, run (using Lua 5.3 or newer):
+
+	lua gen_shapes.lua > shapes.asm
