@@ -440,5 +440,5 @@ end_falling_piece rax, r13, r11
 
 	; system call exit(0)
 	mov rax, sys_exit
-	mov rdi, 0 ; exit code
+	xor rdi, rdi ; exit code 0
 	syscall
