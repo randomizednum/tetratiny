@@ -1,1 +1,1 @@
-Tetris written entirely in pure x86 assembly, for pure Linux (libc etc. not needed).
+A game of falling tetrominoes written entirely in pure x86 assembly, for pure Linux (libc etc. not needed).
