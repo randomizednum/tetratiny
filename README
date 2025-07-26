@@ -8,3 +8,5 @@ To build, just run:
 shapes.asm is auto-generated using gen_shapes.lua; if you need to regenerate it, run (using Lua 5.3 or newer):
 
 	lua gen_shapes.lua > shapes.asm
+
+Licensed under the ISC license. Some files are licensed under the even more permissive 0BSD license; see individual files for details.
